@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 const Hero = () => (
-
   <section className='hero'>
     <div className='hero-wrapper'>
       <h1>
@@ -68,7 +67,6 @@ const Hero = () => (
       `}
     </style>
   </section>
-
 )
 
 export default Hero
