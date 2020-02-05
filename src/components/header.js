@@ -38,19 +38,19 @@ class Header extends React.Component {
           <nav className="mobile-menu header">
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">HOME</Link>
               </li>
               <li>
-                <Link to="/progetto">Progetto</Link>
+                <Link to="/progetto">IL PROGETTO</Link>
               </li>
               <li>
-                <Link to="/paccasassi">Paccasassi</Link>
+                <Link to="/paccasassi">PACCASASSI</Link>
               </li>
               <li>
-                <Link to="/team">Partners</Link>
+                <Link to="/team">PARTNERS</Link>
               </li>
               <li>
-                <Link to="/contatti">Contatti</Link>
+                <Link to="/contatti">CONTATTI</Link>
               </li>
             </ul>
           </nav>
@@ -65,19 +65,19 @@ class Header extends React.Component {
           </Link>
           <ul>
               <li>
-                <Link to="/">Home</Link>
+                <Link to="/">HOME</Link>
               </li>
               <li>
-                <Link to="/progetto">Progetto</Link>
+                <Link to="/progetto">IL PROGETTO</Link>
               </li>
               <li>
-                <Link to="/paccasassi">Paccasassi</Link>
+                <Link to="/paccasassi">PACCASASSI</Link>
               </li>
               <li>
-                <Link to="/team">Partners</Link>
+                <Link to="/team">PARTNERS</Link>
               </li>
               <li>
-                <Link to="/contatti">Contatti</Link>
+                <Link to="/contatti">CONTATTI</Link>
               </li>
             </ul>
         </nav>
@@ -94,7 +94,9 @@ class Header extends React.Component {
           }
           .header li a{
             text-decoration: none;
-            color: #777
+            color: #777;
+            font-size: 15px;
+            font-weight: 500
           }
           .desktop-menu {
             display: none;

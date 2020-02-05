@@ -9,14 +9,14 @@ const Hero = () => (
         lorem <span>ipsum</span> doloret
       </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <Link className='hero-btn' id='btn1' to='/paccasassi'>PACCASASSI</Link>
-      <Link className='hero-btn' id='btn2' to='/contatti'>CONTATTI</Link>
+      <Link className='hero-btn' id='btn1' to='/contatti'>PACCASASSI</Link>
+      <Link className='hero-btn' id='btn2' to='/progetto'>IL PROGETTO</Link>
     </div>
     <style jsx='true'>
       {`
         .hero {
           text-align: center;
-          height: 100vh;
+          height: 80vh;
           display: flex;
           justify-content: center;
         }
@@ -54,6 +54,7 @@ const Hero = () => (
         #btn1{
           border: 2px solid #241f20;
           color: #241f20 !important;
+          font-weight: 600
         }
         #btn2{
           background-color:#23662e;
