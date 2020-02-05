@@ -641,6 +641,22 @@ p {
     0 10px 10px -5px rgba(0, 0, 0, 0.4);
 }
 
+.btn {
+  text-decoration: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  display: inline-block;
+  width: 120px;
+  margin-top: 30px;
+  font-size: 12px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+}
+.btn-green {
+  background-color: #23662e;
+  border: 2px solid #23662e;
+  color: #fff;
+}
 @media (min-width: 1200px) {
   h2 {
     font-size: 36px;

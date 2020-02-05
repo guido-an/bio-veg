@@ -41,7 +41,7 @@ class Header extends React.Component {
                 <Link to="/">HOME</Link>
               </li>
               <li>
-                <Link to="/progetto">IL PROGETTO</Link>
+                <Link to="/il-progetto">IL PROGETTO</Link>
               </li>
               <li>
                 <Link to="/paccasassi">PACCASASSI</Link>
@@ -68,7 +68,7 @@ class Header extends React.Component {
                 <Link to="/">HOME</Link>
               </li>
               <li>
-                <Link to="/progetto">IL PROGETTO</Link>
+                <Link to="/il-progetto">IL PROGETTO</Link>
               </li>
               <li>
                 <Link to="/paccasassi">PACCASASSI</Link>

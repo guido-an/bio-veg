@@ -12,7 +12,7 @@ const servicesHome = () => (
       <div className='service1right'>
         <h2>il progetto</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat cum minus optio ab. Impedit laboriosam minima maxime voluptatum aperiam tempora omnis cupiditate, non animi laborum. Provident odio mollitia minima, id a explicabo eos vel fugiat qui repellat modi iusto, suscipit velit deleniti harum quisquam sit deserunt ipsum temporibus aperiam.</p>
-        <p className='page-link'><Link to='/il-progetto'>> Scopri di più</Link></p>
+        <Link style={{ textAlign: 'center' }} className='btn btn-green' to='/il-progetto'>IL PROGETTO</Link>
       </div>
 
     </div>
@@ -21,7 +21,7 @@ const servicesHome = () => (
       <div className='service2right'>
         <h2>paccasassi</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat cum minus optio ab. Impedit laboriosam minima maxime voluptatum aperiam tempora omnis cupiditate, non animi laborum. Provident odio mollitia minima, id a explicabo eos vel fugiat qui repellat modi iusto, suscipit velit deleniti harum quisquam sit deserunt ipsum temporibus aperiam.</p>
-        <p className='page-link'><Link to='/paccasassi'>> Scopri di più</Link></p>
+        <Link style={{ textAlign: 'center' }} className='btn btn-green' to='/paccasassi'>PACCASASSI</Link>
       </div>
       <div className='service2left'>
         <img src={paccasassiPhoto} className='shadow' />
@@ -44,11 +44,11 @@ const servicesHome = () => (
         } 
         .page-link a{
            margin-top: 40px;
-           display: block;
-           text-decoration: none;
-           font-weight: 500;
-           color: #777
+           
         } 
+        .page-link a:hover{
+          color: #23662e
+        }
        @media(min-width: 1200px){
            .service1,
            .service2{
