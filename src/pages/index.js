@@ -9,7 +9,6 @@ import ContactCta from '../components/contactCta'
 const IndexPage = () => (
   <Layout>
     <SEO title='Bio Veg' />
-    <Hero />
     <ServicesHome />
     <PartnersHome />
     <ContactCta />
