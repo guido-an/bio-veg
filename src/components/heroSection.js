@@ -8,7 +8,7 @@ const Hero = () => (
         lorem <span>ipsum</span> doloret
       </h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-      <Link className='btn' id='btn-hero' to='/contatti' style={{ margin: '25px 10px' }}>PACCASASSI</Link>
+      <Link className='btn' id='btn-hero' to='/paccasassi' style={{ margin: '25px 10px' }}>PACCASASSI</Link>
       <Link className='btn btn-green' to='/il-progetto' style={{ margin: '25px 10px' }}>IL PROGETTO</Link>
     </div>
     <style jsx='true'>

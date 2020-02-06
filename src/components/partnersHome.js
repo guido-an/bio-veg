@@ -4,17 +4,24 @@ import cameraCommercio from '../images/camera-di-commercio-ancona.png'
 import rinci from '../images/rinci-logo.png'
 import cia from '../images/cia-logo.png'
 import gregori from '../images/olive-gregori-logo.png'
+import paccasassi from '../images/paccasassi-del-conero.png'
+import univpm from '../images/univpm.jpg'
 
 const servicesHome = () => (
 
   <section className='partners-home'>
-    <h2>i nostri partners</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, perferendis</p>
+    <div className='partners-title'>
+      <h2>i nostri partners</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, perferendis</p>
+    </div>
     <div className='logo-partners-home'>
-      <Link to='/partner-camera-di-commercio'><img src={cameraCommercio} alt='/camera-di-commercio-ancona-logo' /></Link>
-      <Link to='/partner-rinci'><img src={rinci} alt='/rinci-logo' /></Link>
-      <Link to='/partner-cia'> <img src={cia} alt='/cia-logo' /></Link>
-      <Link to='/partner-olive-gregori'><img src={gregori} alt='/olive-gregori-logo' /></Link>
+      <Link to='/camera-di-commercio'><img src={cameraCommercio} alt='/camera-di-commercio-ancona-logo' /></Link>
+      <Link to='/rinci'><img src={rinci} alt='/rinci-logo' /></Link>
+      <Link to='/paccasassi-del-conero'><img src={paccasassi} alt='/paccasassi-del-conero-logo' /></Link>
+      <Link to='/cia'> <img src={cia} alt='/cia-logo' /></Link>
+      <Link to='/olive-gregori'><img src={gregori} alt='/olive-gregori-logo' /></Link>
+      <Link to='/univpm'><img src={univpm} alt='/univpm-logo' /></Link>
+
     </div>
     <style jsx='true'>
       {`
@@ -31,7 +38,7 @@ const servicesHome = () => (
           
         }   
         .logo-partners-home img{
-            width: 90%
+            width: 100%
         }
     }
       `}

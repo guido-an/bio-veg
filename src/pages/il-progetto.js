@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ContactCta from '../components/contactCta'
-import { withPrefix } from 'gatsby'
+import pdf from '../images/il-progetto-bio-veg-conserve.pdf'
 
 const Project = () => (
   <Layout>
@@ -26,7 +26,7 @@ principi dell&#39;agricoltura biologica. Sono poco diffuse anche le coltivazioni
 alcune aree, tra cui il Conero, è incluso tra le piante spontanee protette e, quindi, non utilizzabili.
 Il progetto BioVeg Conserve ha l&#39;obiettivo di mettere a sistema pratiche esistenti nel settore
 agricolo e delle tecnologie alimentari per la produzione e trasformazione del finocchio marino.
-        <br /><br />Nell’ambito del progetto sarà sperimentata la semina di varietà autoctone di finocchio marino per
+      <br /><br />Nell’ambito del progetto sarà sperimentata la semina di varietà autoctone di finocchio marino per
 verificarne la capacità di adattamento e la resa produttiva e, in un secondo momento, saranno
 condotte prove di fermentazione di germogli di finocchio marino e di olive della varietà Ascolana
 tenera per la produzione di prototipi industriali di conserve fermentate biologiche.<br /><br />
@@ -44,18 +44,14 @@ abbinamenti di qualità.<br /><br />
 Partner del progetto sono le aziende Rinci e Paccasassi del Conero, l&#39;Università Politecnica delle
 Marche, la Camera di Commercio delle Marche e CIA Marche - Confederazione Italiana Agricoltori.
 
-      <a
-          rel='noopener noreferrer'
-          href={withPrefix('/il-progetto-bio-veg-conserve.pdf')}
-          target='_blank'
-        > Click to see my pdf
-        </a>
         <a
+        style={{ display: 'block', marginTop: '20px', color: '#222', textDecoration: 'none' }}
         rel='noopener noreferrer'
-        href='/src/images/il-progetto-bio-veg-conserve.pdf'
+        href={pdf}
         target='_blank'
-      > Click to see my pdf
+      > Presentazione progetto BIO-VEG-CONSERVE
       </a>
+
       </p>
 
       <ContactCta />
