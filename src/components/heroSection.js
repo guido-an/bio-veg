@@ -46,15 +46,11 @@ const Hero = () => (
           font-weight: 600
         }
        
-        #btn1:hover{
+        #btn-hero:hover{
           border: 2px solid #23662e;
           color: #23662e !important;
         }
-        
-        #btn2:hover{
-          background-color:#241f20;
-          border: 2px solid #241f20;
-        }
+      
        
         @media (min-width: 1200px) {
           .hero-wrapper h1 {
