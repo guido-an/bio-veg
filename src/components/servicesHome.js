@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import paccasassiPhoto from '../images/bioveg-paccasassi.jpg'
-
+import progettoPhoto from '../images/bioveg-progetto.jpg'
 const servicesHome = () => (
 
   <section>
     <div className='service1'>
       <div className='service1left'>
-        <img src={paccasassiPhoto} className='shadow' />
+        <img src={progettoPhoto} className='shadow' />
       </div>
       <div className='service1right'>
         <h2>il progetto</h2>
