@@ -39,6 +39,7 @@ p {
   background-color: #241f20;
   border: 2px solid #241f20;
 }
+
 .title-section {
   text-align: center;
   margin-top: 60px;
@@ -55,11 +56,18 @@ p {
 .text-page {
   margin: 0 4%;
 }
+.subtitle-page {
+  margin: 0 4%;
+}
 @media (min-width: 1200px) {
   h2 {
     font-size: 36px;
   }
   .text-page {
     margin: 0 15%;
+  }
+  .subtitle-page {
+    width: 40%;
+    margin: 0 auto;
   }
 }

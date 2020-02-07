@@ -5,8 +5,8 @@ const contactCta = () => (
 
   <section className='contact-cta'>
     <div>
-      <h2>Ne vuoi sapere di più su bio veg?</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+      <h2>Ne vuoi sapere di più?</h2>
+      <p>Mettiti in contatto con noi.</p>
     </div>
     <div>
       <Link style={{ textAlign: 'center' }} className='btn btn-cta' to='/contatti'>CONTATTI</Link>

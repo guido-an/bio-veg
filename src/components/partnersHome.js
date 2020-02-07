@@ -12,7 +12,7 @@ const servicesHome = () => (
   <section className='partners-home'>
     <div className='partners-title'>
       <h2>i nostri partners</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, perferendis</p>
+      <p>Questo è il team BioVeg Conserve</p>
     </div>
     <div className='logo-partners-home'>
       <Link to='/camera-di-commercio'><img src={cameraCommercio} alt='/camera-di-commercio-ancona-logo' /></Link>

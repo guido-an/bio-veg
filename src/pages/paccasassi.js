@@ -10,7 +10,7 @@ const Paccasassi = () => (
     <div className='title-section'>
       <h1>PACCASASSI</h1>
       <div className='divider' />
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <p className='subtitle-page'>Si candida a ingrediente di grido per sofisticati piatti dal sapore salino</p>
     </div>
     <div>
       <p className='text-page'>William Shakespeare lo chiamava samphire (erba di San Pietro) e lo menziona nel Re Lear. Per Herman
@@ -38,15 +38,15 @@ funzionali a base di finocchio di mare e oliva della varietà Ascolana tenera.<b
 Paccasassi e olive, due eccellenze ambasciatrici del territorio (e di tutta l’area macroregionale, potremmo
 aggiungere), cariche di simboli e valori che sarà bello e buono scoprire e raccontare, e mettere a frutto.
 
-      <a
-          style={{ display: 'block', marginTop: '20px', color: '#222', textDecoration: 'none' }}
+      <br /><br />Per approfondire: <a
+          style={{ color: '#222', textDecoration: 'none' }}
           rel='noopener noreferrer'
           href={pdf}
           target='_blank'
-        > IL FINOCCHIO DI MARE:
+                                      > IL FINOCCHIO DI MARE:
 ECOLOGIA, PROPRIETA’ ED
 UTILIZZI TRADIZIONALI
-        </a>
+      </a>
 
       </p>
 

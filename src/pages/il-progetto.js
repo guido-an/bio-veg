@@ -10,7 +10,7 @@ const Project = () => (
     <div className='title-section'>
       <h1>IL PROGETTO BIO VEG CONSERVE</h1>
       <div className='divider' />
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <p className='subtitle-page'>Nuove conserve vegetali biologiche da varietà autoctone di finocchio marino coltivato in biologico</p>
     </div>
     <div>
       <p className='text-page'>Il progetto &quot;Nuove conserve vegetali biologiche da varietà autoctone di finocchio marino coltivato
@@ -44,12 +44,12 @@ abbinamenti di qualità.<br /><br />
 Partner del progetto sono le aziende Rinci e Paccasassi del Conero, l&#39;Università Politecnica delle
 Marche, la Camera di Commercio delle Marche e CIA Marche - Confederazione Italiana Agricoltori.
 
-        <a
-        style={{ display: 'block', marginTop: '20px', color: '#222', textDecoration: 'none' }}
-        rel='noopener noreferrer'
-        href={pdf}
-        target='_blank'
-      > Presentazione progetto BIO-VEG-CONSERVE
+      <br /><br />Per approfondire: <a
+          style={{ color: '#222', textDecoration: 'none' }}
+          rel='noopener noreferrer'
+          href={pdf}
+          target='_blank'
+                                      > Presentazione progetto BIO-VEG-CONSERVE
       </a>
 
       </p>

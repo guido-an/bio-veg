@@ -11,7 +11,7 @@ const servicesHome = () => (
       </div>
       <div className='service1right'>
         <h2>il progetto</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat cum minus optio ab. Impedit laboriosam minima maxime voluptatum aperiam tempora omnis cupiditate, non animi laborum. Provident odio mollitia minima, id a explicabo eos vel fugiat qui repellat modi iusto, suscipit velit deleniti harum quisquam sit deserunt ipsum temporibus aperiam.</p>
+        <p>BioVeg Conserve ha l'obiettivo di mettere a sistema pratiche esistenti nel settore agricolo e delle tecnologie alimentari per la produzione e trasformazione del finocchio marino.</p>
         <Link style={{ textAlign: 'center' }} className='btn btn-green' to='/il-progetto'>IL PROGETTO</Link>
       </div>
 
@@ -20,7 +20,7 @@ const servicesHome = () => (
 
       <div className='service2right'>
         <h2>paccasassi</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil quaerat cum minus optio ab. Impedit laboriosam minima maxime voluptatum aperiam tempora omnis cupiditate, non animi laborum. Provident odio mollitia minima, id a explicabo eos vel fugiat qui repellat modi iusto, suscipit velit deleniti harum quisquam sit deserunt ipsum temporibus aperiam.</p>
+        <p>Semi impermeabili e pelle dura, capacità di adattamento e resilienza fanno sì che il finocchio di mare, che ha patria su scogli e litorali, non disdegni, all’occorrenza, di prendere dimora nell’entroterra colonizzando quelle che gli urbanisti chiamano emergenze antropiche.</p>
         <Link style={{ textAlign: 'center' }} className='btn btn-green' to='/paccasassi'>PACCASASSI</Link>
       </div>
       <div className='service2left'>

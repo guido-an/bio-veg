@@ -11,7 +11,7 @@ const Partners = () => (
 
       <h1>I NOSTRI PARTNERS</h1>
       <div className='divider' />
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+      <p>Questo è il team BioVeg Conserve</p>
 
       <div className='partners-page'>
         <PartnersHome />

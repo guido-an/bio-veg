@@ -5,9 +5,9 @@ const Hero = () => (
   <section className='hero'>
     <div className='hero-wrapper'>
       <h1>
-        lorem <span>ipsum</span> doloret
+        bio <span>veg</span> conserve
       </h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <p>Nuove conserve vegetali biologiche.</p>
       <Link className='btn' id='btn-hero' to='/paccasassi' style={{ margin: '25px 10px' }}>PACCASASSI</Link>
       <Link className='btn btn-green' to='/il-progetto' style={{ margin: '25px 10px' }}>IL PROGETTO</Link>
     </div>
