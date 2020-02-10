@@ -9,7 +9,7 @@ const footer = () => (
       <li><Link to='/'>HOME</Link></li>
       <li><Link to='/il-progetto'>IL PROGETTO</Link></li>
       <li><Link to='/paccasassi'>PACCASASSI</Link></li>
-      <li><Link to='/partners'>PARTNERS</Link></li>
+      <li><Link to='/gruppo-operativo'>GRUPPO OPERATIVO</Link></li>
       <li><Link to='/contatti'>CONTATTI</Link></li>
     </ul>
     <a className='credits' target='_blank' href='https://www.vanillamarketing.it/'>Sito creato da Vanilla Marketing</a>

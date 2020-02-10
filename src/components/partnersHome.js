@@ -11,7 +11,7 @@ const servicesHome = () => (
 
   <section className='partners-home'>
     <div className='partners-title'>
-      <h2>i nostri partners</h2>
+      <h2>gruppo operativo</h2>
       <p>Questo è il team BioVeg Conserve</p>
     </div>
     <div className='logo-partners-home'>

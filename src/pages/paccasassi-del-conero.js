@@ -27,7 +27,7 @@ finocchio marino che si sviluppano nell’ambiente naturale locale. <br /><br />
 peculiarità organolettiche espresse dalla specie botanica, nel caratteristico adattamento evolutivo ad
 ambienti xerici e salini.<br /><br />
 L’ Azienda Agricola Paccasassi del Conero è in conversione Biologica e otterrà la definitiva certificazione a
-partire da luglio 2021. La coltivazione di finocchio marino dunque avviene attualmente secondo i principi
+partire da luglio 2020. La coltivazione di finocchio marino dunque avviene attualmente secondo i principi
 dell’agricoltura biologica, sfruttando l’esperienza e il know how maturato negli anni in campo agronomico.
 L’azienda fa della sostenibilità uno dei suoi capisaldi. <br /><br />I nuovi impianti vengono realizzati a partire da semi
 ottenuti dalle proprie coltivazioni, internalizzando e ottimizzando tutte le fasi colturali di:

@@ -9,7 +9,7 @@ const Partners = () => (
     <SEO title='Paccasassi' />
     <div className='title-section'>
 
-      <h1>I NOSTRI PARTNERS</h1>
+      <h1>GRUPPO OPERATIVO</h1>
       <div className='divider' />
       <p>Questo è il team BioVeg Conserve</p>
 
