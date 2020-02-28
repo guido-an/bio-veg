@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ContactCta from '../components/contactCta'
@@ -19,7 +20,10 @@ L'eccellenza dell'attività di ricerca dei Ricercatori afferenti al D3A che part
 <br/><br/>(iii) studio del microbiota di alimenti di origine vegetale, anche ai fini della selezione di colture starter per la ottimizzazione della qualità e della sicurezza dei fermentati (Prof. Lucia Aquilanti, Prof. Andrea Osimani);
 <br/><br/>(iv) ottimizzazione di parametri di processo nelle trasformazioni alimentari e analisi chimiche e compositive sui prodotti (Prof. Massimo Mozzon)
 <br/><br/>(v) analisi sul consumatore di prodotti agro-alimentari (Prof. Raffaele Zanoli).
-
+<br />   <br /><br /><strong className='title-section-text'>attività nel progetto</strong>
+        <br />
+        <br />Il Dipartimento di Scienze Agrarie, Alimentari e Ambientali dell'Università Politecnica delle Marche affiancherà le imprese partner del progetto nelle attività di sperimentazione, coltivazione e trasformazione del finocchio marino, delle olive tipo Ascolana tenera e dei prodotti orticoli per la produzione di nuovi prototipi di conserve, salse e spezie disidratate biologiche. 
+        <br/><br/><Link to="/il-progetto" style={{textDecoration: 'none', color: '#777', fontWeight: '600'}}>> IL PROGETTO</Link>
       </p>
       <ContactCta />
     </div>

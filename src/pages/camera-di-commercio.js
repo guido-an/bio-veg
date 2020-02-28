@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ContactCta from '../components/contactCta'
@@ -34,7 +35,7 @@ internazionale anche grazie al Forum delle Camere di Commercio e dell&#39;Adriat
 assieme alla Camera dell&#39;Economia di Spalato, il quale raccoglie oltre 40 Camere di Commercio
 appartenenti ai paesi della Macro Regione Adriatico-ionica.
 
-        <p style={{ marginTop: '80px' }}><strong>STAFF</strong></p>
+        <p style={{ marginTop: '40px' }}><strong>STAFF</strong></p>
        GIOVANNI MANZOTTI<br />
 Responsabile Area Sviluppo Economico sede di Ancona<br />
 giovanni.manzotti@marche.camcom.it<br /><br />
@@ -42,6 +43,10 @@ ANDREA MOSCONI<br />
 Ufficio Progettazione europea e reti internazionali<br />
 andrea.mosconi@marche.camcom.it
 
+<br />   <br /><br /><strong className='title-section-text'>attività nel progetto</strong>
+        <br />
+        <br />Dovrà svolgere attività di divulgazione e trasferimento dei risultati mediante l'organizzazione di eventi di approfondimento e comunicazione oltre all'utilizzo di strumenti di informazione, cartacei e online in collaborazione con CIA Ancona. Il progetto prevede l'organizzazione di diversi seminari (inclusi uno di avvio e uno di conclusione), la realizzazione di un sito web, di opuscoli e pubblicazioni sul tema dei paccasassi. La Camera di Commercio delle Marche curerà, assieme agli altri partner, l'organizzazione di un evento aperto agli addetti del stampa specializzata in tema gastronomico per dare maggiore visibilità al prodotto paccasassi anche al di fuori della zona di Ancona.
+        <br/><br/><Link to="/il-progetto" style={{textDecoration: 'none', color: '#777', fontWeight: '600'}}>> IL PROGETTO</Link>
       </p>
 
       <ContactCta />

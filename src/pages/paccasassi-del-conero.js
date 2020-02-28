@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ContactCta from '../components/contactCta'
@@ -39,6 +40,9 @@ ottenuti dalle proprie coltivazioni, internalizzando e ottimizzando tutte le fas
 completamente in maniera manuale nel periodo tardo-primaverile/estivo nel rispetto dello specifico tempo
 balsamico. Il raccolto è quindi trasferito direttamente alle aziende di trasformazione dove in poche ore
 dalla raccolta vengono trasformate per la produzione di conserve vegetali.
+<br />   <br /><br /><strong className='title-section-text'>attività nel progetto</strong>
+       <br/> <br />Responsabile dell'azione 1, curerà la fase di preparazione dei campi per la semina dei semi di finocchio marino, monitoraggio delle colture, raccolta e analisi dei dati introducendo un sistema di coltivazione biologica a partire da germoplasma di varietà autoctone già disponibili.
+       <br/><br/><Link to="/il-progetto" style={{textDecoration: 'none', color: '#777', fontWeight: '600'}}>> IL PROGETTO</Link>
       </p>
       <ContactCta />
     </div>

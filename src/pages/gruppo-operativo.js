@@ -6,7 +6,7 @@ import PartnersHome from '../components/partnersHome'
 
 const Partners = () => (
   <Layout>
-    <SEO title='Paccasassi' />
+    <SEO title='Gruppo Operativo' />
     <div className='title-section'>
 
       <h1>GRUPPO OPERATIVO</h1>

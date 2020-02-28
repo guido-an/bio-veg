@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ContactCta from '../components/contactCta'
@@ -35,6 +36,10 @@ monocultivar di ascolana tenera.<br /><br />
 Dal 2016 l&#39;azienda amplia i propri terreni olivati arrivando a gestire 2000 piante dislocate nei comuni di
 Rotella, Lapedona e Montalto delle Marche. Dalla campagna 2017 sono state sperimentate reti anti-
 insetto contro la mosca olearia e l&#39;azienda si è dotata di un proprio frantoio.
+<br />   <br /><br /><strong className='title-section-text'>attività nel progetto</strong>
+        <br />
+        <br />Responsabile dell'azione 2, l'azienda Olive Gregori avrà il compito di studiare un protocollo insieme all’ UNIVPM  e quindi  realizzare presso il proprio stabilimento almeno un prototipo industriale di conserva fermentata biologica e funzionale a base di finocchio marino e di olive tipo Ascolana tenera che la stessa azienda dovrà selezionare.
+        <br/><br/><Link to="/il-progetto" style={{textDecoration: 'none', color: '#777', fontWeight: '600'}}>> IL PROGETTO</Link>
       </p>
       <ContactCta />
     </div>

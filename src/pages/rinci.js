@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import ContactCta from '../components/contactCta'
 
 const Rinci = () => (
   <Layout>
-    <SEO title='Rinci' />
+    <Seo title='Rinci' />
     <div className='title-section'>
       <h1>RINCI
       </h1>
@@ -32,6 +33,10 @@ tecnologiche a metodi di lavorazione di tipo artigianale. Inoltre è realizzata 
 tesa a sperimentare nuovi processi e ricette originali.<br /><br />
 Tradizione e innovazione sono, quindi, le due direttrici lungo le quali si sviluppa, si amplia e si rinnova
 l’offerta dell’azienda.
+        <br />   <br /><br /><strong className='title-section-text'>attività nel progetto</strong>
+        <br /><br />CAPOFILA DEL PROGETTO
+        <br />Attività da svolgere: responsabile delle azioni 3 e 4, in qualità di capofila ha il compito di coordinare il lavoro dell'intero partenariato, occupandosi degli aspetti organizzativi, amministrativi ed economici. Oltre a coadiuvare l’azienda Gregori e l’UNIVPM nelle prove di fermentazione guidata di germogli di finocchio marino e oliva della varietà Ascolana tenera  per l'ottenimento di nuove conserve fermentate, sara’ responsabile della realizzazione di nuove salse biologiche-funzionali e di nuove miscele di spezie disidratate  a base di finocchio marino.
+        <br/><br/><Link to="/il-progetto" style={{textDecoration: 'none', color: '#777', fontWeight: '600'}}>> IL PROGETTO</Link>
       </p>
       <ContactCta />
     </div>

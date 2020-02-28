@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import ContactCta from '../components/contactCta'
@@ -40,7 +41,10 @@ La CIA provinciale di Ancona svolge, tra l’altro, le seguenti attività:<br />
         <br /><br />– elaborare leggi, discipline, normative e regolamenti da proporre alla Provincia;
         <br /><br />– operare nell’ambito delle politiche di promozione economica in ambito provinciale e interprovinciale.
         <br /><br />La CIA ha partecipato con Cooperativa agricola Moncaro e UNIVPM al progetto di setting-up VITINNOVA avente come soggetto capofila la Cooperativa Moderna.
-
+        <br />   <br /><br /><strong className='title-section-text'>attività nel progetto</strong>
+        <br />
+        <br />Responsabile dell'azione 5, dovrà svolgere attività di divulgazione e trasferimento dei risultati mediante l'organizzazione di eventi di approfondimento e comunicazione oltre all'utilizzo di strumenti di informazione, cartacei e online. In collaborazione con la Camera di Commercio delle Marche ha il compito di organizzare seminari e incontri, eventi per la stampa di settore e pubblicazioni per la promozione dei paccasassi quale prodotto gastronomico di qualità e in grado di essere abbinato a numerosi piatti.
+        <br/><br/><Link to="/il-progetto" style={{textDecoration: 'none', color: '#777', fontWeight: '600'}}>> IL PROGETTO</Link>
       </p>
       <ContactCta />
     </div>
