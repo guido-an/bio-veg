@@ -34,10 +34,10 @@ const Project = () => (
         <br /><br />1.3 Trapianto delle piante con 3-4 foglie
         <br /><br />1.4 Monitoraggio delle colture
         <br /><br />1.5 Prima campagna di raccolta e verifica dell'influenza delle principali variabili ambientali e agronomiche sulla resa produttiva e prima serie di analisi
-        <br /><br />1.7 Redazione di un protocollo ottimizzato di coltivazione biologica di finocchio marino
-        <br /><br />1.8 Realizzazione di un campo dimostrativo presso l'Azienda Agraria Didattico - Sperimentale dell'Univpm
-        <br /><br />1.9 Seconda campagna di raccolta e ulteriore valutazione della spesa e seconda serie di analisi
-        <br /><br />1.10 Elaborazione dei dati ottenuti dalla sperimentazione in campo.
+        <br /><br />1.6 Redazione di un protocollo ottimizzato di coltivazione biologica di finocchio marino
+        <br /><br />1.7 Realizzazione di un campo dimostrativo presso l'Azienda Agraria Didattico - Sperimentale dell'Univpm
+        <br /><br />1.8 Seconda campagna di raccolta e ulteriore valutazione della spesa e seconda serie di analisi
+        <br /><br />1.9 Elaborazione dei dati ottenuti dalla sperimentazione in campo.
         <br />  <br /><br /><strong>Azione 2 - Produzione di nuove conserve fermentate biologiche e funzionali</strong>
         <br /><br />Durata: intero progetto
         <br />Responsabile: Olive Gregori
