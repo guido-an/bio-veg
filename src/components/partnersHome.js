@@ -15,12 +15,12 @@ const servicesHome = () => (
       <p>Questo è il team BioVeg Conserve</p>
     </div>
     <div className='logo-partners-home'>
-      <Link to='/camera-di-commercio'><img src={cameraCommercio} alt='/camera-di-commercio-ancona-logo' /></Link>
-      <Link to='/rinci'><img src={rinci} alt='/rinci-logo' /></Link>
-      <Link to='/paccasassi-del-conero'><img src={paccasassi} alt='/paccasassi-del-conero-logo' /></Link>
-      <Link to='/cia'> <img src={cia} alt='/cia-logo' /></Link>
-      <Link to='/olive-gregori'><img src={gregori} alt='/olive-gregori-logo' /></Link>
-      <Link to='/univpm'><img src={univpm} alt='/univpm-logo' /></Link>
+      <Link to='/camera-di-commercio'><img className='responsive-img' src={cameraCommercio} alt='/camera-di-commercio-ancona-logo' /></Link>
+      <Link to='/rinci'><img className='responsive-img' src={rinci} alt='/rinci-logo' /></Link>
+      <Link to='/paccasassi-del-conero'><img className='responsive-img' src={paccasassi} alt='/paccasassi-del-conero-logo' /></Link>
+      <Link to='/cia'> <img className='responsive-img' src={cia} alt='/cia-logo' /></Link>
+      <Link to='/olive-gregori'><img className='responsive-img' src={gregori} alt='/olive-gregori-logo' /></Link>
+      <Link to='/univpm'><img className='responsive-img' src={univpm} alt='/univpm-logo' /></Link>
 
     </div>
     <style jsx='true'>
