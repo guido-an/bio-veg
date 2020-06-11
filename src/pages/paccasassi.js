@@ -6,7 +6,7 @@ import pdf from '../images/presentazione-finocchio-marino.pdf'
 
 const Paccasassi = () => (
   <Layout>
-    <SEO title='Paccasassi' />
+    <SEO title='Paccasassi del Conero tutti da scoprire' description='Da pianta con proprietà nutrizionali a ingrediente in grado di arricchire un piatto, i Paccasassi del Conero sono un tesoro da preservare.' />
     <div className='title-section'>
       <h1>PACCASASSI</h1>
       <div className='divider' />
@@ -38,15 +38,15 @@ funzionali a base di finocchio di mare e oliva della varietà Ascolana tenera.<b
 Paccasassi e olive, due eccellenze ambasciatrici del territorio (e di tutta l’area macroregionale, potremmo
 aggiungere), cariche di simboli e valori che sarà bello e buono scoprire e raccontare, e mettere a frutto.
 
-      <br /><br />Per approfondire: <a
-          style={{ color: '#222', textDecoration: 'none' }}
-          rel='noopener noreferrer'
-          href={pdf}
-          target='_blank'
-                                      > IL FINOCCHIO DI MARE:
+        <br /><br />Per approfondire: <a
+        style={{ color: '#222', textDecoration: 'none' }}
+        rel='noopener noreferrer'
+        href={pdf}
+        target='_blank'
+                                    > IL FINOCCHIO DI MARE:
 ECOLOGIA, PROPRIETA’ ED
 UTILIZZI TRADIZIONALI
-      </a>
+                                    </a>
 
       </p>
 

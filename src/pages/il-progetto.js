@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import ContactCta from '../components/contactCta'
 import pdf from '../images/il-progetto-bio-veg-conserve.pdf'
 
 const Project = () => (
   <Layout>
-    <SEO title='Il Progetto' />
+    <Seo title='Produzione biologica di Conserve Vegetali' description="Il progetto riunisce varie aziende con l'obiettivo di aumentare le coltivazioni dei Paccasassi e sottolineare i loro benefici." />
     <div className='title-section'>
       <h1>IL PROGETTO BIO VEG CONSERVE</h1>
       <div className='divider' />
@@ -76,8 +76,8 @@ const Project = () => (
           rel='noopener noreferrer'
           href={pdf}
           target='_blank'
-                                      > Presentazione progetto BIO-VEG-CONSERVE
-                                      </a>
+        > Presentazione progetto BIO-VEG-CONSERVE
+        </a>
 
       </p>
 

@@ -1,12 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
-import SEO from '../components/seo'
+import Seo from '../components/seo'
 import ContactCta from '../components/contactCta'
 import PartnersHome from '../components/partnersHome'
 
 const Partners = () => (
   <Layout>
-    <SEO title='Gruppo Operativo' />
+    <Seo title='Gruppo operativo | BioVeg Conserve' description="BioVeg Conserve è un'iniziativa che comprede aziende e vari enti con l'unico scopo di far emergere il finocchio di mare." />
     <div className='title-section'>
 
       <h1>GRUPPO OPERATIVO</h1>
