@@ -28,7 +28,7 @@ const IndexPage = () => (
         <img src={img} />
       </div>
     </div> */}
-    <div>
+    {/* <div>
       <div style={{
         textAlign: 'center',
         position: 'relative',
@@ -42,7 +42,7 @@ const IndexPage = () => (
         <p>Mercoledì 22 dicembre a partire dalle ore 16.00 si terrà un seminario di aggiornamento sui risultati del progetto BioVeg e sulle più recenti novità in materia di conserve biologiche prodotte con i paccasassi. Per partecipare basta collegarsi alla pagina <a href='https://us06web.zoom.us/j/85769224063'>https://us06web.zoom.us/j/85769224063</a></p>
         <img style={{ width: '100%'}}src={img2} />
       </div>
-    </div>
+    </div> */}
     <ServicesHome />
     <PartnersHome />
     <ContactCta />
