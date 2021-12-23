@@ -3,6 +3,8 @@ import Layout from '../components/layout'
 import Seo from '../components/seo'
 import ContactCta from '../components/contactCta'
 import pdf from '../images/il-progetto-bio-veg-conserve.pdf'
+import img from '../images/seminario.jpg'
+import img2 from '../images/seminario-2.jpg'
 
 const Project = () => (
   <Layout>
@@ -78,11 +80,25 @@ const Project = () => (
           target='_blank'
         > Presentazione progetto BIO-VEG-CONSERVE
         </a>
-
+        <div className="passed-events-container">
+        <p><strong className='title-section-text'>EVENTI PASSATI</strong></p>
+         <img style={{ width: '100%'}} src={img} />
+         <img style={{ width: '100%'}} src={img2} /> 
+         </div>
       </p>
+     
 
       <ContactCta />
-    </div>
+    </div><style jsx="true">{`
+      .passed-events-container {
+        margin-top: 40px;
+      }
+      .passed-events-container img {
+       display: block;
+        margin: 40px 0 80px
+      }
+    
+    `}</style>
 
   </Layout>
 )
