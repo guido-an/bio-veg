@@ -81,6 +81,11 @@ const Project = () => (
         > Presentazione progetto BIO-VEG-CONSERVE
         </a>
         <div className="passed-events-container">
+       
+        <p><strong>Produzione di conserve fermentate - Galeazzi</strong> <a href="http://blog.veggiemedcheeses.com/wp-content/uploads/2022/01/Produzione-di-conserve-fermentate_Galeazzi.pdf">link</a></p>
+        <p><strong>Sviluppo di un protocollo ottimizzato - Maoloni</strong> <a href="http://blog.veggiemedcheeses.com/wp-content/uploads/2022/01/Sviluppo-di-un-protocollo-ottimizzato_Maoloni.pdf">link</a></p>
+         </div>
+         <div className="passed-events-container">
         <p><strong className='title-section-text'>EVENTI PASSATI</strong></p>
          <img style={{ width: '100%'}} src={img} />
          <img style={{ width: '100%'}} src={img2} /> 
