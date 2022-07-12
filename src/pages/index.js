@@ -6,7 +6,8 @@ import ServicesHome from '../components/servicesHome'
 import PartnersHome from '../components/partnersHome'
 import ContactCta from '../components/contactCta'
 import locandina from '../images/seminario-paccasassi.jpg'
-
+import presentazioneGaleazzi from '../images/presentazione-galeazzi.pdf'
+import presentazioneOrsini from '../images/risultati-conclusivi-orsini.pdf'
 
 
 const IndexPage = () => (
@@ -18,8 +19,19 @@ const IndexPage = () => (
     <Hero />
     <div style={{ textAlign: 'center'}}>
       <p>Scopri le ultime presentazioni: <br/>
-      <a style={{display: 'block'}} href="presentazione-galeazzi.pdf" target="_blank">Presentiazione Galeazzi</a>
-      <a href="risultati-conclusivi-orsini.pdf" target="_blank">Risultati conclusivi Orsini</a>
+      <a
+      style={{ display: 'block'}} 
+        rel='noopener noreferrer'
+        href={presentazioneGaleazzi}
+        target='_blank'
+      > Presentazione galeazzi</a>
+      <a
+        rel='noopener noreferrer'
+        href={presentazioneOrsini}
+        target='_blank'
+      > Risultati conclusivi Orsini</a>
+      {/* <a style={{display: 'block'}} href="presentazione-galeazzi.pdf" target="_blank"></a>
+      <a href="risultati-conclusivi-orsini.pdf" target="_blank"></a> */}
       </p>
       {/* <div style={{
         textAlign: 'center',

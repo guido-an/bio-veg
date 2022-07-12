@@ -38,7 +38,8 @@ funzionali a base di finocchio di mare e oliva della varietà Ascolana tenera.<b
 Paccasassi e olive, due eccellenze ambasciatrici del territorio (e di tutta l’area macroregionale, potremmo
 aggiungere), cariche di simboli e valori che sarà bello e buono scoprire e raccontare, e mettere a frutto.
 
-        <br /><br />Per approfondire: <a
+        <br /><br />
+        Per approfondire: <a
         style={{ color: '#222', textDecoration: 'none' }}
         rel='noopener noreferrer'
         href={pdf}
