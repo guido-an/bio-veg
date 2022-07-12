@@ -14,8 +14,12 @@ const IndexPage = () => (
       description="Diffondiamo l'utilizzo del finocchio marino del Conero attraverso la creazione di conserve biologiche e la sperimentazione di tecniche agricole."
     />
     <Hero />
-    <div>
-      <div style={{
+    <div style={{ textAlign: 'center'}}>
+      <p>Scopri le ultime presentazioni: <br/>
+      <a style={{display: 'block'}} href="/presentazione-galeazzi.pdf" target="_blank">Presentiazione Galeazzi</a>
+      <a href="/risultati-conclusivi-orsini.pdf" target="_blank">Risultati conclusivi Orsini</a>
+      </p>
+      {/* <div style={{
         textAlign: 'center',
         position: 'relative',
         bottom: '80px',
@@ -25,8 +29,8 @@ const IndexPage = () => (
       }}
       >
       
-        <img style={{ width: '100%'}} src={locandina} />
-      </div>
+        <img style={{ width: '100%'}} src={locandina} />a
+      </div> */}
     </div>
     <ServicesHome />
     <PartnersHome />
