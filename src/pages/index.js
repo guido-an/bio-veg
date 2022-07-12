@@ -7,6 +7,8 @@ import PartnersHome from '../components/partnersHome'
 import ContactCta from '../components/contactCta'
 import locandina from '../images/seminario-paccasassi.jpg'
 
+
+
 const IndexPage = () => (
   <Layout>
     <Seo
@@ -16,8 +18,8 @@ const IndexPage = () => (
     <Hero />
     <div style={{ textAlign: 'center'}}>
       <p>Scopri le ultime presentazioni: <br/>
-      <a style={{display: 'block'}} href="/presentazione-galeazzi.pdf" target="_blank">Presentiazione Galeazzi</a>
-      <a href="/risultati-conclusivi-orsini.pdf" target="_blank">Risultati conclusivi Orsini</a>
+      <a style={{display: 'block'}} href="presentazione-galeazzi.pdf" target="_blank">Presentiazione Galeazzi</a>
+      <a href="risultati-conclusivi-orsini.pdf" target="_blank">Risultati conclusivi Orsini</a>
       </p>
       {/* <div style={{
         textAlign: 'center',
