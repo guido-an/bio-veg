@@ -24,7 +24,7 @@ const IndexPage = () => (
         rel='noopener noreferrer'
         href={presentazioneGaleazzi}
         target='_blank'
-      > Presentazione galeazzi</a>
+      > Presentazione Galeazzi</a>
       <a
         rel='noopener noreferrer'
         href={presentazioneOrsini}
