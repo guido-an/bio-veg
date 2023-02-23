@@ -15,7 +15,7 @@ const contactCta = () => (
       {`
 
       .contact-cta{
-        margin-top: 180px;
+        margin-top: 120px;
         background-color: #23662e;
         color: #fff;
         text-align: center;
