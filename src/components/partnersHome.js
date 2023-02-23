@@ -6,6 +6,8 @@ import cia from '../images/cia-logo.png'
 import gregori from '../images/olive-gregori-logo.png'
 import paccasassi from '../images/paccasassi-del-conero.png'
 import univpm from '../images/univpm.jpg'
+import pdfImage from '../images/bio-veg.jpg'
+
 
 const servicesHome = () => (
 
@@ -23,6 +25,10 @@ const servicesHome = () => (
       <Link to='/univpm'><img className='responsive-img' src={univpm} alt='/univpm-logo' /></Link>
 
     </div>
+    <div className='pdf-image'>
+    <img src={pdfImage} alt=""/>
+
+    </div>
     <style jsx='true'>
       {`
     .partners-home{
@@ -30,6 +36,12 @@ const servicesHome = () => (
         text-align: center;
         margin-top: 120px
     }
+    .pdf-image {
+      margin-top:80px;
+    }
+    @media(max-width: 767px){
+      .pdf-image img {width:100%;}
+      }
     @media(min-width: 1200px){
         .logo-partners-home{
            display: flex;
